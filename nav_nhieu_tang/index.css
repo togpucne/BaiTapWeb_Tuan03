@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav .container .inner-wrap .inner-header {
+    height: 50px;
+}
+
+.nav .container .inner-wrap {
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.inner-header {
+    background-color: darkgrey;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.inner-nav ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid black;
+    background-color: yellowgreen;
+}
+
+.inner-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.inner-nav ul li {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
+    border: 1px solid black;
+    position: relative; 
+    cursor: pointer;
+}
+
+.inner-nav ul li:hover {
+    background-color: cadetblue;
+}
+
+.inner-nav ul li ul {
+    display: none;
+   position: absolute;
+   left: 0px;
+   
+    background-color: white;
+    padding: 0;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.inner-nav ul li ul li {
+    
+    border: 1px solid black;;
+    
+    background-color: white;
+    
+}
+
+.inner-nav ul li ul li a {
+    color: black;
+}
+
+.inner-nav ul li:hover ul {
+    display: block;
+}
+/* inner-section */
+.inner-section{
+    height: 300px;
+    border: 1px solid black;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* end section */
+/* inner-footer */
+.inner-footer{
+height: 50px;
+text-align: center;
+background-color: brown;
+}
+
+
+
+/* end inner-footer */
